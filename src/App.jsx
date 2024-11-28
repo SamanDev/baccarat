@@ -307,8 +307,8 @@ const BlackjackGame = () => {
         return userbet;
     };
     const getAllBets = (sideBets, username, seat, mode) => {
-        //var userbet = sideBets.filter((sideBet) => sideBet.seat == seat && sideBet?.mode === mode && sideBet.nickname != username);
-        var userbet = sideBets.filter((sideBet) => sideBet.seat == seat  && sideBet.nickname != username);
+        var userbet = sideBets.filter((sideBet) => sideBet.seat == seat && sideBet?.mode === mode && sideBet.nickname != username);
+        //var userbet = sideBets.filter((sideBet) => sideBet.seat == seat  && sideBet.nickname != username);
 
         return userbet;
     };
