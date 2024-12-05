@@ -545,7 +545,7 @@ const BlackjackGame = () => {
                                     if (i < 50) {
                                         let card = x.b > x.p ? "B" : x.b == x.p ? "T" : "P";
                                         return (
-                                            <div className="visibleCards animate__flipInY animate__animated" key={i} style={{ animationDelay: (i + 1) * 90 + "ms", background: getcolor(card), color: getcolortext(card) }}>
+                                            <div className="visibleCards animate__fadeIn animate__animated" key={i} style={{ animationDelay: (i + 1) * 90 + "ms", background: getcolor(card), color: getcolortext(card) }}>
                                                 {card} {x.p}/{x.b}
                                             </div>
                                         );
